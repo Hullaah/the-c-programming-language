@@ -4,9 +4,10 @@
  * copy input to output; 2nd version
  */
 
-int main() {
-  int c;
+int main()
+{
+	int c;
 
-  while ((c = getchar())!= EOF)
-    putchar(c);
+	while ((c = getchar()) != EOF)
+		putchar(c);
 }

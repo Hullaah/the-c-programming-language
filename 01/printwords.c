@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 int main() {
   int c;
@@ -13,8 +13,7 @@ int main() {
         printed_newline = true;
       }
       printed_char = false;
-    }
-    else {
+    } else {
       putchar(c);
       printed_char = true;
       printed_newline = false;

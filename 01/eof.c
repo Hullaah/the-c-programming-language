@@ -1,5 +1,6 @@
 #include <stdio.h>
 
-int main() {
-  printf("%d\n", EOF);
+int main()
+{
+	printf("%d\n", EOF);
 }
